@@ -4,5 +4,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+    Scanner s = new Scanner(System.in);
+    System.out.println("Enter your first coordinate point:");
+    String pointOne = s.nextLine();
+    System.out.println("Enter your second coordinate point:");
+    String pointTwo = s.nextLine();
     }
 }
