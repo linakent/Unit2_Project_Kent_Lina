@@ -11,7 +11,7 @@ public class EquationRunner {
         int x1 = Integer.parseInt(point1.substring(1, point1.indexOf(",")));
         int y1 = Integer.parseInt(point1.substring(point1.indexOf(",") + 1, point1.indexOf(")"))); // Gets first point
 
-        System.out.print("Enter your second coordinate point: "):
+        System.out.print("Enter your second coordinate point: ");
         String point2 = input.nextLine();
         int x2 = Integer.parseInt(point2.substring(1, point2.indexOf(",")));
         int y2 = Integer.parseInt(point2.substring(point2.indexOf(",") + 1, point2.indexOf(")"))); // Gets second point
