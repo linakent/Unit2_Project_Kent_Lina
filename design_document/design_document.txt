@@ -1,0 +1,23 @@
+Class: Linear Equation (calculates properties of a line given two points)
+Instance variables: int x1, y1, x2, y2 (coordinates of the two points)
+double slope (slope of the line)
+double yIntercept (the b in y = mx + b)
+double distance (distance between two points)
+
+Constructor: publicLinearEquation(int x1, int y1, int x2, int y2)
+(initializes point, calculates slope, y-intercept, distance)
+
+Methods: private void calculateSlope() ((y2-y1)/(x2-x1))
+private void calculateYIntercept() (y1-(slope * x1))
+private void calculateDistance() (distance = square root of ((x2-x1)^2 + (y2-y1)^2))
+public string getEquation()  (returns y = mx + b format)
+public string coordinateForX(double x value) (takes a double x value and returns the y coordinate)
+public double getDistance() (returns the distance between two points)
+public String toString() (returns all the calculations and stuff)
+
+Class: EquationRunner
+First it asks for input from the user for the two coordinate points
+Next it constructs a Linear Equation object based on the input coordinates
+Prints all the values
+Then it asks for another x value
+It displays the point (x, y)

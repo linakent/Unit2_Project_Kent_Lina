@@ -46,7 +46,7 @@ private String formatSlope(){
 public double getDistance(){
   return distance; // Returns the distance between two points
 }
-  public String printAll(){
+  public String toString(){
     return "First pair: (" + x1 + ", " + y1 + ")\n" + "Second Pair: (" + x2 + ", " + y2 + ")\n" +
      "Slope of line: " + String.format("%.1f", slope) + "\n" + "Y-intercept: " + String.format("%.1f", yIntercept) + "\n" +
       "Slope intercept form: " + getEquation() + "\n" + "Distance between points: " + String.format("%.2f", distance); 
